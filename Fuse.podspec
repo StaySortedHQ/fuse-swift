@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'Fuse'
-  s.version          = '1.3.2'
+  s.version          = '1.3.3'
   s.summary          = 'Fuzzy searching.'
   s.description      = <<-DESC
   A lightweight fuzzy-search library, with zero dependencies
@@ -14,6 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.13'
+  s.watchos.deployment_target = '4.0'
   s.source_files = 'Fuse/Classes/**/*'
   s.swift_version = '5.0'
 end
